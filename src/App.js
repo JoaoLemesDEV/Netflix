@@ -1,4 +1,4 @@
-import React, { useEffect, useState, FeaturedData } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Tmdb from './Tmdb';
 import MovieRow from './components/MovieRow';
@@ -7,7 +7,6 @@ import FeaturedMovie from './components/FeaturedMovie';
 export default() => {
 
     const [movieList, setMovieList] = useState([]);
-    // eslint-disable-next-line
     const [FeaturedData, setFeaturedData] = useState(null);
 
     useEffect(() =>{
