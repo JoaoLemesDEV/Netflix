@@ -14,6 +14,8 @@
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
+    padding-bottom: 180px;
+    padding-top: 70px;
 }
 
 .featured--name{
@@ -41,7 +43,12 @@
     font-size: 20px;
     color: #999;
     max-width: 40%;
+    height: 20%;
+    overflow: auto;
+    text-overflow: ellipsis;
 }
+
+.featured--description::-webkit-scrollbar {width: 0}
 
 .featured--buttons {
     margin-top: 15px;
